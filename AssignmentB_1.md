@@ -132,7 +132,7 @@ test_that("Test 1:", {
 })
 ```
 
-    ## Test passed 🥳
+    ## Test passed 🎊
 
 ## Test2:
 
@@ -147,7 +147,7 @@ test_that("Test 2:", {
 })
 ```
 
-    ## Test passed 🥳
+    ## Test passed 😸
 
 ## Test3:
 
@@ -162,7 +162,7 @@ test_that("Test 3:", {
 })
 ```
 
-    ## Test passed 😀
+    ## Test passed 🎉
 
 ## Test4:
 
@@ -170,7 +170,7 @@ Directly input numeric vectors with matching length that has special
 character.  
 
 ``` r
-test_that("Test 3:", {
+test_that("Test 4:", {
   expect_error(lm_std(c(5,7,9,11), c(2,4,6,"s")), 'is.numeric')
 })
 ```
@@ -182,9 +182,9 @@ test_that("Test 3:", {
 Directly input numeric vectors with different length.
 
 ``` r
-test_that("Test 3:", {
+test_that("Test 5:", {
   expect_error(lm_std(c(5,7,9,11,13), c(2,4,5,8)))
 })
 ```
 
-    ## Test passed 😀
+    ## Test passed 😸

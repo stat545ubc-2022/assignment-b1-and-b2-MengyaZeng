@@ -10,4 +10,4 @@ This repo currently has three files - *Readme.md* for information, *AssignmentB-
 
 ## To run the code
 
-Go to RStudio and **knit** the Rmd file into a **md** file.
+Go to RStudio and *knit* the Rmd file into a *md* file.
