@@ -22,13 +22,13 @@ model object fitted for two numeric vectors.
 #' @description
 #' This function will return the standard error of the fitted linear model for vector x, y. Since we are fitting a linear model, value that's not numeric will not be accepted, also we would expect the length of these two vectors to match. The input vector can have NA as long as we have enough numeric elements to fit our model.
 #'
-#' @title lm_std
+#' @title lm_std function
 #' @param x - corresponds to is the "X" vector that we want to fit our linear regression model for, 
 #' @param y - corresponds to is the "Y" vector that we want to fit our linear regression model for
 #' @param dataset - the dataset that contains the x, y variable, this dataset variable is set as an empty vector by default if the user wishes to input two vector x, y directly.
 #' @return return the standard error of the fitted linear model for vector x, y.
 #'
-lm_std <- function( x, y, dataset=c() ) {
+lm_std <- function( x, y, dataset=c()) {
     stopifnot(is.numeric(x) && is.numeric(y))
     stopifnot(length(x) == length(y))
     my_lm <- lm(y ~ x, data = dataset)
@@ -132,7 +132,7 @@ test_that("Test 1:", {
 })
 ```
 
-    ## Test passed 😸
+    ## Test passed 🥳
 
 ## Test2:
 
@@ -147,7 +147,7 @@ test_that("Test 2:", {
 })
 ```
 
-    ## Test passed 🌈
+    ## Test passed 🥳
 
 ## Test3:
 
@@ -162,7 +162,7 @@ test_that("Test 3:", {
 })
 ```
 
-    ## Test passed 🌈
+    ## Test passed 😀
 
 ## Test4:
 
@@ -171,11 +171,11 @@ character.
 
 ``` r
 test_that("Test 3:", {
-  expect_error(lm_std(c(5,7,10), c(2,4,"s")), 'is.numeric')
+  expect_error(lm_std(c(5,7,9,11), c(2,4,6,"s")), 'is.numeric')
 })
 ```
 
-    ## Test passed 😸
+    ## Test passed 🎊
 
 ## Test5:
 
@@ -183,8 +183,8 @@ Directly input numeric vectors with different length.
 
 ``` r
 test_that("Test 3:", {
-  expect_error(lm_std(c(5,7,10), c(2,4)))
+  expect_error(lm_std(c(5,7,9,11,13), c(2,4,5,8)))
 })
 ```
 
-    ## Test passed 😸
+    ## Test passed 😀
