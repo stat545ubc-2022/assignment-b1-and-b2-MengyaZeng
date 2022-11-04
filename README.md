@@ -6,7 +6,7 @@ This is the repository for STAT 545B, assignment B1 and B2, owned by Mengya Zeng
 
 ## Contents
 
-This repo currently has three file - **Readme.md** for information, **AssignmentB-1.Rmd** is the source code file, **AssignmentB-1.md** is the output file.
+This repo currently has three files - *Readme.md* for information, *AssignmentB-1.Rmd* is the source code file, *AssignmentB-1.md* is the output file.
 
 ## To run the code
 
