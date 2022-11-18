@@ -2,11 +2,13 @@
 
 ## Introduction
 
-This is the repository for STAT 545B, assignment B1 and B2, owned by Mengya Zeng. This repo currently only has contents from assignment B1 - This assignment covers making a function in R, documenting it, and testing it.
+This is the repository for STAT 545B, assignment B1 and B2, owned by Mengya Zeng. This repo consists of two assignments:
+* Assignment B1 covers making a function in R, documenting it, and testing it
+* Assignment B2 covers wrapping the function into an R package  *[LinearModelSE](https://github.com/stat545ubc-2022/assignment-b1-and-b2-MengyaZeng/tree/main/LinearModelSE)*
 
 ## Contents
 
-This repo currently has three files - *Readme.md* for information, *AssignmentB-1.Rmd* is the source code file, *AssignmentB-1.md* is the output file.
+This repo currently mainly has two folders, for more specific information, please refer to the respective *Readme.md* file under each folder.
 
 ## To run the code
 
