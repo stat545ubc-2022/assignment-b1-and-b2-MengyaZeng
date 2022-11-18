@@ -1,0 +1,15 @@
+Package: LinearModelSE
+Title: Get Standard Error From Linear Model
+Version: 0.1.0
+Authors@R: 
+    person("Mengya", "Zeng", , "echomaria98123@gmail.com", role = c("aut", "cre"), )
+Description: The goal of LinearModelSE is to take in two numeric vectors x and y, either manually or get two vectors from a dataset, and return the standard error of the fitted linear model for vector x, y. Since it's for fitting a linear model, the length of x and y should be the same.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Imports: broom
+Suggests: 
+    testthat (>= 3.0.0),
+    datateachr
+Config/testthat/edition: 3
