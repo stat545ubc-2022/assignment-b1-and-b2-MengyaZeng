@@ -23,7 +23,8 @@ lm_std(x, y, dataset = c())
 return the standard error of the linear model fitted for vector x, y.
 }
 \description{
-This function will return the standard error of the linear model fitted for vector x, y. Since we are fitting a linear model, none-numeric vectors will not be accepted, also we would expect the length of these two vectors to match. The input vector can have NA as long as we have enough numeric elements to fit our model.
+This function will return the standard error of the linear model fitted for vector x, y. Since we are fitting a linear model,
+none-numeric vectors will not be accepted, also we would expect the length of these two vectors to match. The input vector can have NA as long as we have enough numeric elements to fit our model.
 }
 \examples{
 lm_std(c(1,2,3), c(4,5,7))

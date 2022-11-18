@@ -1,5 +1,6 @@
 #' @description
-#' This function will return the standard error of the linear model fitted for vector x, y. Since we are fitting a linear model, none-numeric vectors will not be accepted, also we would expect the length of these two vectors to match. The input vector can have NA as long as we have enough numeric elements to fit our model.
+#' This function will return the standard error of the linear model fitted for vector x, y. Since we are fitting a linear model, 
+#' none-numeric vectors will not be accepted, also we would expect the length of these two vectors to match. The input vector can have NA as long as we have enough numeric elements to fit our model.
 #'
 #' @title linear model standard error
 #' @import broom
